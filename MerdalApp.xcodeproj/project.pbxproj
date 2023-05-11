@@ -7,23 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B82C2FB92A09A18C00A2D909 /* PatientsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82C2FB82A09A18C00A2D909 /* PatientsVC.swift */; };
+		B82C2FBB2A09A9A000A2D909 /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82C2FBA2A09A9A000A2D909 /* Doctor.swift */; };
+		B82C2FBD2A09AA3200A2D909 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82C2FBC2A09AA3200A2D909 /* Patient.swift */; };
+		B82C2FBF2A09B5D200A2D909 /* MerAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82C2FBE2A09B5D200A2D909 /* MerAlert.swift */; };
+		B8A4F3AF2A0A43EC00128634 /* TasksVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A4F3AE2A0A43EC00128634 /* TasksVC.swift */; };
+		B8A4F3B12A0A43FF00128634 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A4F3B02A0A43FF00128634 /* ProfileVC.swift */; };
+		B8A4F3B32A0A5BEA00128634 /* MerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A4F3B22A0A5BEA00128634 /* MerError.swift */; };
+		B8A4F3B52A0AB25B00128634 /* TasksCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A4F3B42A0AB25B00128634 /* TasksCell.swift */; };
+		B8A4F3B72A0AC48200128634 /* TaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A4F3B62A0AC48200128634 /* TaskVC.swift */; };
+		B8A4F3B92A0AC56B00128634 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A4F3B82A0AC56B00128634 /* Task.swift */; };
+		B8A4F3BD2A0C2A4000128634 /* PatientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A4F3BC2A0C2A4000128634 /* PatientCell.swift */; };
+		B8A4F3BF2A0CE4EE00128634 /* PatientVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A4F3BE2A0CE4ED00128634 /* PatientVC.swift */; };
 		B8F770772A095B4200BD0B01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F770762A095B4200BD0B01 /* AppDelegate.swift */; };
 		B8F770792A095B4200BD0B01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F770782A095B4200BD0B01 /* SceneDelegate.swift */; };
-		B8F7707B2A095B4200BD0B01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F7707A2A095B4200BD0B01 /* ViewController.swift */; };
-		B8F7707E2A095B4200BD0B01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8F7707C2A095B4200BD0B01 /* Main.storyboard */; };
+		B8F7707B2A095B4200BD0B01 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F7707A2A095B4200BD0B01 /* WelcomeVC.swift */; };
 		B8F770802A095B4400BD0B01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8F7707F2A095B4400BD0B01 /* Assets.xcassets */; };
 		B8F770832A095B4400BD0B01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8F770812A095B4400BD0B01 /* LaunchScreen.storyboard */; };
+		B8F770922A095E6800BD0B01 /* MerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F770912A095E6800BD0B01 /* MerButton.swift */; };
+		B8F770942A0960A000BD0B01 /* Ext+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F770932A0960A000BD0B01 /* Ext+UIView.swift */; };
+		B8F770972A09626200BD0B01 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F770962A09626200BD0B01 /* Constants.swift */; };
+		B8F7709B2A09695F00BD0B01 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F7709A2A09695F00BD0B01 /* AuthManager.swift */; };
+		B8F7709D2A096C8000BD0B01 /* MerTitle1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F7709C2A096C8000BD0B01 /* MerTitle1.swift */; };
+		B8F7709F2A096D2200BD0B01 /* MerTitle2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F7709E2A096D2200BD0B01 /* MerTitle2.swift */; };
+		B8F770A12A096D6F00BD0B01 /* MerText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F770A02A096D6F00BD0B01 /* MerText.swift */; };
+		B8F770A32A0974AB00BD0B01 /* AuthenticationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F770A22A0974AB00BD0B01 /* AuthenticationVC.swift */; };
+		B8F770A52A09772900BD0B01 /* MerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F770A42A09772900BD0B01 /* MerTextField.swift */; };
+		B8F770A72A09776800BD0B01 /* Ext+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F770A62A09776800BD0B01 /* Ext+UIViewController.swift */; };
+		B8F770A92A097F6400BD0B01 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8F770A82A097F6400BD0B01 /* GoogleService-Info.plist */; };
+		CCFA5E65F6FAAE8D19D5B9D9 /* Pods_MerdalApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0EA18FA46ED66522F3061DD /* Pods_MerdalApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50C34D1E055AFEFC6967A1EA /* Pods-MerdalApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MerdalApp.release.xcconfig"; path = "Target Support Files/Pods-MerdalApp/Pods-MerdalApp.release.xcconfig"; sourceTree = "<group>"; };
+		B82C2FB82A09A18C00A2D909 /* PatientsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientsVC.swift; sourceTree = "<group>"; };
+		B82C2FBA2A09A9A000A2D909 /* Doctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
+		B82C2FBC2A09AA3200A2D909 /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		B82C2FBE2A09B5D200A2D909 /* MerAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerAlert.swift; sourceTree = "<group>"; };
+		B8A4F3AE2A0A43EC00128634 /* TasksVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksVC.swift; sourceTree = "<group>"; };
+		B8A4F3B02A0A43FF00128634 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		B8A4F3B22A0A5BEA00128634 /* MerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerError.swift; sourceTree = "<group>"; };
+		B8A4F3B42A0AB25B00128634 /* TasksCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksCell.swift; sourceTree = "<group>"; };
+		B8A4F3B62A0AC48200128634 /* TaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskVC.swift; sourceTree = "<group>"; };
+		B8A4F3B82A0AC56B00128634 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		B8A4F3BC2A0C2A4000128634 /* PatientCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientCell.swift; sourceTree = "<group>"; };
+		B8A4F3BE2A0CE4ED00128634 /* PatientVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientVC.swift; sourceTree = "<group>"; };
 		B8F770732A095B4200BD0B01 /* MerdalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MerdalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8F770762A095B4200BD0B01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8F770782A095B4200BD0B01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B8F7707A2A095B4200BD0B01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B8F7707D2A095B4200BD0B01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8F7707A2A095B4200BD0B01 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 		B8F7707F2A095B4400BD0B01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8F770822A095B4400BD0B01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8F770842A095B4400BD0B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8F770912A095E6800BD0B01 /* MerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerButton.swift; sourceTree = "<group>"; };
+		B8F770932A0960A000BD0B01 /* Ext+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UIView.swift"; sourceTree = "<group>"; };
+		B8F770962A09626200BD0B01 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B8F7709A2A09695F00BD0B01 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		B8F7709C2A096C8000BD0B01 /* MerTitle1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerTitle1.swift; sourceTree = "<group>"; };
+		B8F7709E2A096D2200BD0B01 /* MerTitle2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerTitle2.swift; sourceTree = "<group>"; };
+		B8F770A02A096D6F00BD0B01 /* MerText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerText.swift; sourceTree = "<group>"; };
+		B8F770A22A0974AB00BD0B01 /* AuthenticationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationVC.swift; sourceTree = "<group>"; };
+		B8F770A42A09772900BD0B01 /* MerTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerTextField.swift; sourceTree = "<group>"; };
+		B8F770A62A09776800BD0B01 /* Ext+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UIViewController.swift"; sourceTree = "<group>"; };
+		B8F770A82A097F6400BD0B01 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C0EA18FA46ED66522F3061DD /* Pods_MerdalApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MerdalApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3C97EB06EEEC08CE0C32FB /* Pods-MerdalApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MerdalApp.debug.xcconfig"; path = "Target Support Files/Pods-MerdalApp/Pods-MerdalApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +79,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCFA5E65F6FAAE8D19D5B9D9 /* Pods_MerdalApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ACA6D287A4BA18F6C632EFA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0EA18FA46ED66522F3061DD /* Pods_MerdalApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8A4F3AB2A0A40D300128634 /* ForPatient */ = {
+			isa = PBXGroup;
+			children = (
+				B8A4F3AE2A0A43EC00128634 /* TasksVC.swift */,
+				B8A4F3B02A0A43FF00128634 /* ProfileVC.swift */,
+				B8A4F3B62A0AC48200128634 /* TaskVC.swift */,
+			);
+			path = ForPatient;
+			sourceTree = "<group>";
+		};
+		B8A4F3AC2A0A40E600128634 /* ForDoctor */ = {
+			isa = PBXGroup;
+			children = (
+				B82C2FB82A09A18C00A2D909 /* PatientsVC.swift */,
+				B8A4F3BE2A0CE4ED00128634 /* PatientVC.swift */,
+			);
+			path = ForDoctor;
+			sourceTree = "<group>";
+		};
+		B8A4F3AD2A0A40FD00128634 /* Beginning */ = {
+			isa = PBXGroup;
+			children = (
+				B8F7707A2A095B4200BD0B01 /* WelcomeVC.swift */,
+				B8F770A22A0974AB00BD0B01 /* AuthenticationVC.swift */,
+			);
+			path = Beginning;
+			sourceTree = "<group>";
+		};
 		B8F7706A2A095B4200BD0B01 = {
 			isa = PBXGroup;
 			children = (
 				B8F770752A095B4200BD0B01 /* MerdalApp */,
 				B8F770742A095B4200BD0B01 /* Products */,
+				FC63967A01966887673B3760 /* Pods */,
+				ACA6D287A4BA18F6C632EFA7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +143,98 @@
 		B8F770752A095B4200BD0B01 /* MerdalApp */ = {
 			isa = PBXGroup;
 			children = (
-				B8F770762A095B4200BD0B01 /* AppDelegate.swift */,
-				B8F770782A095B4200BD0B01 /* SceneDelegate.swift */,
-				B8F7707A2A095B4200BD0B01 /* ViewController.swift */,
-				B8F7707C2A095B4200BD0B01 /* Main.storyboard */,
-				B8F7707F2A095B4400BD0B01 /* Assets.xcassets */,
-				B8F770812A095B4400BD0B01 /* LaunchScreen.storyboard */,
+				B8F770952A09625200BD0B01 /* Utilities */,
+				B8F7708F2A095DD600BD0B01 /* Resources */,
+				B8F7708E2A095DC800BD0B01 /* Extensions */,
+				B8F770902A095DDF00BD0B01 /* Managers */,
+				B8F7708C2A095DAF00BD0B01 /* Models */,
+				B8F7708D2A095DB600BD0B01 /* CustomViews */,
+				B8F7708B2A095DA700BD0B01 /* Screens */,
 				B8F770842A095B4400BD0B01 /* Info.plist */,
+				B8F770A82A097F6400BD0B01 /* GoogleService-Info.plist */,
 			);
 			path = MerdalApp;
+			sourceTree = "<group>";
+		};
+		B8F7708B2A095DA700BD0B01 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B8A4F3AD2A0A40FD00128634 /* Beginning */,
+				B8A4F3AC2A0A40E600128634 /* ForDoctor */,
+				B8A4F3AB2A0A40D300128634 /* ForPatient */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		B8F7708C2A095DAF00BD0B01 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B82C2FBA2A09A9A000A2D909 /* Doctor.swift */,
+				B82C2FBC2A09AA3200A2D909 /* Patient.swift */,
+				B8A4F3B82A0AC56B00128634 /* Task.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B8F7708D2A095DB600BD0B01 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				B8F770912A095E6800BD0B01 /* MerButton.swift */,
+				B8F7709C2A096C8000BD0B01 /* MerTitle1.swift */,
+				B8F7709E2A096D2200BD0B01 /* MerTitle2.swift */,
+				B8F770A02A096D6F00BD0B01 /* MerText.swift */,
+				B8F770A42A09772900BD0B01 /* MerTextField.swift */,
+				B82C2FBE2A09B5D200A2D909 /* MerAlert.swift */,
+				B8A4F3B42A0AB25B00128634 /* TasksCell.swift */,
+				B8A4F3BC2A0C2A4000128634 /* PatientCell.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		B8F7708E2A095DC800BD0B01 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B8F770932A0960A000BD0B01 /* Ext+UIView.swift */,
+				B8F770A62A09776800BD0B01 /* Ext+UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B8F7708F2A095DD600BD0B01 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B8F770762A095B4200BD0B01 /* AppDelegate.swift */,
+				B8F770782A095B4200BD0B01 /* SceneDelegate.swift */,
+				B8F7707F2A095B4400BD0B01 /* Assets.xcassets */,
+				B8F770812A095B4400BD0B01 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B8F770902A095DDF00BD0B01 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B8F7709A2A09695F00BD0B01 /* AuthManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		B8F770952A09625200BD0B01 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B8F770962A09626200BD0B01 /* Constants.swift */,
+				B8A4F3B22A0A5BEA00128634 /* MerError.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		FC63967A01966887673B3760 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC3C97EB06EEEC08CE0C32FB /* Pods-MerdalApp.debug.xcconfig */,
+				50C34D1E055AFEFC6967A1EA /* Pods-MerdalApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +244,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8F770872A095B4400BD0B01 /* Build configuration list for PBXNativeTarget "MerdalApp" */;
 			buildPhases = (
+				BD8C06E3E9EF6C3DF46F4574 /* [CP] Check Pods Manifest.lock */,
 				B8F7706F2A095B4200BD0B01 /* Sources */,
 				B8F770702A095B4200BD0B01 /* Frameworks */,
 				B8F770712A095B4200BD0B01 /* Resources */,
+				2B52ADC34508160DC9086C46 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,35 +298,91 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8F770832A095B4400BD0B01 /* LaunchScreen.storyboard in Resources */,
+				B8F770A92A097F6400BD0B01 /* GoogleService-Info.plist in Resources */,
 				B8F770802A095B4400BD0B01 /* Assets.xcassets in Resources */,
-				B8F7707E2A095B4200BD0B01 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B52ADC34508160DC9086C46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MerdalApp/Pods-MerdalApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MerdalApp/Pods-MerdalApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MerdalApp/Pods-MerdalApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD8C06E3E9EF6C3DF46F4574 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MerdalApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B8F7706F2A095B4200BD0B01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8F7707B2A095B4200BD0B01 /* ViewController.swift in Sources */,
+				B8F770942A0960A000BD0B01 /* Ext+UIView.swift in Sources */,
+				B82C2FBF2A09B5D200A2D909 /* MerAlert.swift in Sources */,
+				B82C2FB92A09A18C00A2D909 /* PatientsVC.swift in Sources */,
+				B8A4F3B12A0A43FF00128634 /* ProfileVC.swift in Sources */,
+				B8A4F3BF2A0CE4EE00128634 /* PatientVC.swift in Sources */,
+				B8A4F3B92A0AC56B00128634 /* Task.swift in Sources */,
+				B8F770A32A0974AB00BD0B01 /* AuthenticationVC.swift in Sources */,
+				B8F770A52A09772900BD0B01 /* MerTextField.swift in Sources */,
+				B8F7709B2A09695F00BD0B01 /* AuthManager.swift in Sources */,
+				B8F770A72A09776800BD0B01 /* Ext+UIViewController.swift in Sources */,
+				B8A4F3B52A0AB25B00128634 /* TasksCell.swift in Sources */,
+				B8F7707B2A095B4200BD0B01 /* WelcomeVC.swift in Sources */,
 				B8F770772A095B4200BD0B01 /* AppDelegate.swift in Sources */,
+				B8F7709F2A096D2200BD0B01 /* MerTitle2.swift in Sources */,
+				B8F770A12A096D6F00BD0B01 /* MerText.swift in Sources */,
+				B8F7709D2A096C8000BD0B01 /* MerTitle1.swift in Sources */,
+				B82C2FBB2A09A9A000A2D909 /* Doctor.swift in Sources */,
+				B8A4F3B72A0AC48200128634 /* TaskVC.swift in Sources */,
+				B8A4F3BD2A0C2A4000128634 /* PatientCell.swift in Sources */,
+				B8F770922A095E6800BD0B01 /* MerButton.swift in Sources */,
+				B8A4F3B32A0A5BEA00128634 /* MerError.swift in Sources */,
+				B82C2FBD2A09AA3200A2D909 /* Patient.swift in Sources */,
 				B8F770792A095B4200BD0B01 /* SceneDelegate.swift in Sources */,
+				B8F770972A09626200BD0B01 /* Constants.swift in Sources */,
+				B8A4F3AF2A0A43EC00128634 /* TasksVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B8F7707C2A095B4200BD0B01 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B8F7707D2A095B4200BD0B01 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B8F770812A095B4400BD0B01 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,18 +510,19 @@
 		};
 		B8F770882A095B4400BD0B01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC3C97EB06EEEC08CE0C32FB /* Pods-MerdalApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5CV2BM6V4T;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MerdalApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +530,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.emoooqwe.MerdalApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,18 +541,19 @@
 		};
 		B8F770892A095B4400BD0B01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50C34D1E055AFEFC6967A1EA /* Pods-MerdalApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5CV2BM6V4T;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MerdalApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,6 +561,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.emoooqwe.MerdalApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
